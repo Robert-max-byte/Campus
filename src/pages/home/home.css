@@ -1,0 +1,79 @@
+.content{
+    flex: 3;
+    margin: 10px 5px;
+    width: 100%;
+    margin-top: 70px;
+    margin-left: 15%;
+}
+.shop{
+    width: 100%;
+    height:45%;
+}
+.shop-name{
+    margin-left: 10px;
+    padding: 5px;
+    width: 30%;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 50px;
+    background-color: rgb(82, 82, 82);
+}
+.shop-name span{
+    margin-left: 10%;
+    color: white;
+    cursor: default;
+}
+.content-container{
+    display: flex;
+    height: 30%;
+    padding: 5px;
+}
+.img-container{
+    width: 25%;
+    height: 25px;
+    margin: 0px 10px;
+    border-radius: 50px;
+}
+.img{
+    position: relative;
+    display: flex;
+    border-radius: 50px;
+}
+.img img{
+    width: 100%;
+    height: 95%;
+    border-radius: 15px;
+}
+.info{
+    position: absolute;
+    display: flex;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; 
+}
+.icons{
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    z-index: 3;
+    border-radius: 30px;
+    padding: 5px;
+}
+.icons:hover{
+    background-color: white;
+    font-weight: 400
+}
+.desc{
+    z-index: 4;
+    margin: auto;
+    margin-left: 25%;
+    align-items: center;
+    font-size: 25px;
+    font-family: cursive;
+    cursor: default;
+}

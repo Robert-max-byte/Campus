@@ -1,0 +1,17 @@
+.cat-content{
+    flex: 3;
+    margin-top: 80px;
+    margin-left: 200px;
+    margin-right: 5px;
+}
+.category{
+    display: flex;
+}
+.inside{
+    margin: 0px 15px;
+}
+.cat-image img{
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+}

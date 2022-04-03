@@ -1,0 +1,10 @@
+.control{
+    width: 30px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+@media (min-width:550px) {
+    .control{
+        visibility: hidden;
+    }
+}

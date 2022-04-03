@@ -1,0 +1,22 @@
+.login-content{
+    margin: 150px auto auto 0px ;
+    height: 70vh;
+    width: 100%;
+}
+.log-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.log-form input{
+    width: 30%;
+    height: 10px;
+    padding: 10px;
+    margin: 10px 5px;
+}
+.log-form button{
+    width: 20%;
+    padding: 10px;
+    margin: 10px 5px;
+}
