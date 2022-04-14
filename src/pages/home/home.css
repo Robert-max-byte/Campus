@@ -77,3 +77,9 @@
     font-family: cursive;
     cursor: default;
 }
+@media (max-width:550px){
+    .hideout{
+        visibility: hidden;
+        position: absolute;
+    }
+}

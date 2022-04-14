@@ -12,7 +12,8 @@ const Product = () => {
         <Row lg={2}>
         <Col md={6}>
           <Card style={{width:'20rem',marginTop:'10px'}}>
-            <Card.Img variant='top' src='s2.jpg' className='cardImg'/>
+            <Card.Img variant='top' src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVb2_tOW03-vIhwLA120fdRL7VWQSQr54WNA&usqp=CAU'
+             className='cardImg'/>
           </Card>  
         </Col>
         <Col md={4}>

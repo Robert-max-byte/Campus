@@ -1,9 +1,9 @@
 import React from 'react'
-import { Carousel, Container } from 'react-bootstrap'
+import { Carousel } from 'react-bootstrap'
+import './home.css'
 
 const Carouse = () => {
   return (
-    <Container>
       <Carousel>
         <Carousel.Item interval={1000}> 
             <img 
@@ -19,7 +19,6 @@ const Carouse = () => {
             <img src='s5.jpg'/>
         </Carousel.Item>
     </Carousel>
-    </Container>
   )
 }
 

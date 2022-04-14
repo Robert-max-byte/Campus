@@ -12,7 +12,9 @@ export const Home = () => {
     return (
            <div>
                <Footer/>
-               <Carouse/>
+               {/* <div className='hideout'>
+                   <Carouse/>
+               </div> */}
                 <Container>
                     <Col>
                             <Col>
@@ -23,7 +25,7 @@ export const Home = () => {
                                     </Link>
                                 </div>
                             </Col>
-                        <Row xs={1} md={2} className="g-4">
+                        <Row xs={1} md={2} className="g-4 " style={{marginLeft:'44px'}}>
                         {shirtItems.map((item)=>(
                                    <Col lg={3} >
                                    <Link to='/Product'>
