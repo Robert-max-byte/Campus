@@ -34,7 +34,9 @@ export const Footer = () => {
                         <Help/>Help
                     </Nav.Link>
                     <Nav.Link >
+                        <Link to='/cart'>
                         <ShoppingCart/> Cart
+                        </Link>
                     </Nav.Link>
                 </Navbar.Collapse>
                 </ul>

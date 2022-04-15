@@ -29,8 +29,8 @@ export const Home = () => {
                         {shirtItems.map((item)=>(
                                    <Col lg={3} >
                                    <Link to='/Product'>
-                                    <Card  style={{ width: '14rem'}}> 
-                                            <Card.Img variant="top" src={item.img}/>
+                                    <Card  style={{ width: '16rem',height:'16em'}}> 
+                                            <Card.Img variant="top" src={item.img} style={{width:'120px',heigth:'100px',marginLeft:'15px'}}/>
                                             <Card.Body>
                                             <Card.Title>{item.desc}</Card.Title>
                                             <Card.Text>

@@ -11,6 +11,7 @@ import { General } from './General';
 import Product from './pages/Product/Product';
 import { Shops } from './pages/Shops/Shops';
 import { Shop } from './pages/Shop/Shop';
+import { Cart } from './pages/cart/Cart';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
               <Route path='/Product' element={<Product/>} />
               <Route path='/shops' element={<Shops/>}/>
               <Route path='/shop' element={<Shop/>} />
+              <Route path='/cart' element={<Cart/>}/>
             </Routes>
          </BrowserRouter>
   );
