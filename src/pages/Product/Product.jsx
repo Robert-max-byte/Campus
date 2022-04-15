@@ -23,7 +23,9 @@ const Product = () => {
               <Card.Text>Color:</Card.Text>
               <Card.Text>Size:</Card.Text>
             </Card.Body>
-            <Button>ADD TO CART</Button>
+            <Link to='/cart'>
+              <Button>ADD TO CART</Button>
+            </Link>
         </Col>
         </Row>
         <Col style={{marginTop:'20px'}}>

@@ -1,11 +1,14 @@
 import React from 'react';
 import { Card, Col, Container, Row } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import { Footer } from '../../components/footer/Footer';
 import { shopImg } from '../../data';
 
 export const Shops = () => {
-  return <Container style={{marginTop:'20px'}}>
-  <Col>
+  return <div>
+    <Footer/>
+    <Container style={{marginTop:'20px'}}>
+  <Col style={{marginLeft:'44px'}}>
           <Row xs={1} md={2} className="g-4">
                                 {shopImg.map((item)=>(
                                    <Col lg={3} >
@@ -22,4 +25,5 @@ export const Shops = () => {
             </Row>
   </Col>
 </Container>
+  </div>
 };
