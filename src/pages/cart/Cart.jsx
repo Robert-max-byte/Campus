@@ -1,5 +1,6 @@
 import React from 'react'
 import { Button, Card, Col, Container, Row } from 'react-bootstrap'
+import { Link } from 'react-router-dom'
 import { Footer } from '../../components/footer/Footer'
 import './cart.css'
 
@@ -10,7 +11,9 @@ export const Cart = () => {
         <Container>
             <Row style={{marginTop:'10px'}} >
                 <Col><span>YOUR CART</span></Col>
-                <Col><Button>Continue Shopping</Button></Col>
+                <Col>
+                    <Link to='/Home'><Button>Continue Shopping</Button></Link>
+                </Col>
             </Row>
             <Row sm={1}>
                 <Col sm={4} lg={8}>
